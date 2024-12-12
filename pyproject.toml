@@ -1,0 +1,11 @@
+[project]
+name = "prime"
+
+[tool.pytest.ini_options]
+# pythonpath
+# pytestの設定項目でimport対象のディレクトリを指定できます。rootdirからの相対パスを指定する必要があります。
+pythonpath = "source"
+
+# testpaths
+# pytestの設定項目で、テスト対象のディレクトリを指定できます。rootdirからの相対パスを指定する必要があります。
+testpaths = ["tests",]
